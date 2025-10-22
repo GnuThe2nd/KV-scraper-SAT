@@ -1,5 +1,5 @@
 [ ] - Standardiseerida failinimetused
-[ ] - hea ülevaatega README.md
+[ ] - hea ülevaatega README.md (tõsta ümber seletused docxist või luua uus juhend)
 [ ] - kui palju on üldse vaja kasutada Jupyter Notebook ülesehitust? vast saaks ka lihtsalt pythonit kirjutada
     [ ] - ilmselt saaks kasutada jupyteri ainult andmegraafikute jaoks
     [ ] - kas csv on vaja ümber teha? json ja csv on sarnased oma olemuselt ja kui csv faili nagunii ei vaata, pole vast eriti vahet.
