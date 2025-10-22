@@ -1,0 +1,2463 @@
+{
+    "page": "search",
+    "faCache": "0c7b13ed96dc969d190d62c7b94cbaa3",
+    "searchForm": {
+        "0": false,
+        "deal_type": [
+            [
+                1,
+                2,
+                30,
+                20
+            ],
+            [
+                3,
+                4,
+                31,
+                21
+            ],
+            [
+                11,
+                12,
+                32,
+                25
+            ],
+            [
+                8,
+                9,
+                24
+            ],
+            [
+                5,
+                10,
+                22
+            ],
+            [
+                7,
+                6,
+                23
+            ]
+        ],
+        "deal_type_trans": {
+            "sell": "M\u00fc\u00fck",
+            "rent": "\u00dc\u00fcr",
+            "shortterm": "L\u00fchiajaline \u00fc\u00fcr",
+            "all": "K\u00f5ik"
+        },
+        "features": {
+            "14": "R\u00f5du",
+            "31": "Parkimine",
+            "38": "Saun",
+            "84": "Panipaik"
+        },
+        "structures": {
+            "9": {
+                "constant_id": 9,
+                "lang": "stone"
+            },
+            "10": {
+                "constant_id": 10,
+                "lang": "wood"
+            },
+            "11": {
+                "constant_id": 11,
+                "lang": "panel"
+            },
+            "12": {
+                "constant_id": 12,
+                "lang": "hangar"
+            },
+            "70": {
+                "constant_id": 70,
+                "lang": "monolithic"
+            },
+            "71": {
+                "constant_id": 71,
+                "lang": "framehouse"
+            },
+            "72": {
+                "constant_id": 72,
+                "lang": "blocked"
+            },
+            "68": {
+                "constant_id": 68,
+                "lang": "loghouse"
+            }
+        },
+        "conditions": [
+            {
+                "constant_id": 800,
+                "lang": "new_development"
+            },
+            {
+                "constant_id": 38,
+                "lang": "new"
+            },
+            {
+                "constant_id": 104,
+                "lang": "good_condition"
+            },
+            {
+                "constant_id": 39,
+                "lang": "renovated"
+            },
+            {
+                "constant_id": 40,
+                "lang": "san_repairs"
+            },
+            {
+                "constant_id": 41,
+                "lang": "moderate"
+            },
+            {
+                "constant_id": 42,
+                "lang": "needs_san_repairs"
+            },
+            {
+                "constant_id": 51,
+                "lang": "needs_renovating"
+            }
+        ],
+        "building_types": {
+            "13": {
+                "constant_id": 13,
+                "lang": "house"
+            },
+            "14": {
+                "constant_id": 14,
+                "lang": "box"
+            },
+            "15": {
+                "constant_id": 15,
+                "lang": "house_part"
+            },
+            "16": {
+                "constant_id": 16,
+                "lang": "summerhouse"
+            },
+            "17": {
+                "constant_id": 17,
+                "lang": "farmhouse"
+            },
+            "66": {
+                "constant_id": 66,
+                "lang": "garage"
+            },
+            "18": {
+                "constant_id": 18,
+                "lang": "other"
+            }
+        },
+        "purposes_land": [
+            {
+                "option_id": 243,
+                "lang": "commercial"
+            },
+            {
+                "option_id": 244,
+                "lang": "manufacturing"
+            },
+            {
+                "option_id": 246,
+                "lang": "forest"
+            },
+            {
+                "option_id": 247,
+                "lang": "residential"
+            },
+            {
+                "option_id": 248,
+                "lang": "land_profit_land"
+            },
+            {
+                "option_id": 255,
+                "lang": "residential_skyscraper"
+            },
+            {
+                "option_id": 256,
+                "lang": "garden"
+            }
+        ],
+        "purposes_premise": {
+            "43": {
+                "constant_id": 43,
+                "lang": "office"
+            },
+            "44": {
+                "constant_id": 44,
+                "lang": "trade"
+            },
+            "45": {
+                "constant_id": 45,
+                "lang": "accomodation"
+            },
+            "46": {
+                "constant_id": 46,
+                "lang": "service"
+            },
+            "47": {
+                "constant_id": 47,
+                "lang": "warehouse"
+            },
+            "48": {
+                "constant_id": 48,
+                "lang": "industry"
+            },
+            "49": {
+                "constant_id": 49,
+                "lang": "catering"
+            },
+            "50": {
+                "constant_id": 50,
+                "lang": "undefined"
+            },
+            "65": {
+                "constant_id": 65,
+                "lang": "warehouse_industry"
+            }
+        },
+        "detail_plans": {
+            "19": {
+                "constant_id": 19,
+                "lang": "exists"
+            },
+            "20": {
+                "constant_id": 20,
+                "lang": "none"
+            },
+            "21": {
+                "constant_id": 21,
+                "lang": "started"
+            }
+        },
+        "water_bodies": [
+            {
+                "option_id": 222,
+                "lang": "sea"
+            },
+            {
+                "option_id": 223,
+                "lang": "lake"
+            },
+            {
+                "option_id": 224,
+                "lang": "river"
+            },
+            {
+                "option_id": 225,
+                "lang": "wb_other"
+            }
+        ],
+        "nearby_buildings": [
+            {
+                "option_id": 238,
+                "lang": "private_houses"
+            },
+            {
+                "option_id": 239,
+                "lang": "private_houses_apart_buildings"
+            },
+            {
+                "option_id": 240,
+                "lang": "apartment_buildings"
+            },
+            {
+                "option_id": 241,
+                "lang": "commercial_buildings"
+            },
+            {
+                "option_id": 242,
+                "lang": "manufacturing_buildings"
+            },
+            {
+                "option_id": 257,
+                "lang": "no_buildings"
+            }
+        ],
+        "development_types": {
+            "1": "Korterelamu",
+            "4": "Maja",
+            "2": "Ridaelamu",
+            "3": "B\u00fcroo",
+            "5": "Maa",
+            "6": "Veel"
+        },
+        "modular_types": {
+            "5": "Majad",
+            "6": "Suvilad",
+            "7": "Saunad",
+            "8": "Abihooned",
+            "9": "Muud hooned"
+        },
+        "area_range": {
+            "": "Objekti suurus (m\u00b2)",
+            "0": "Kuni 50m\u00b2",
+            "1": "50 - 100m\u00b2",
+            "2": "100 - 200m\u00b2",
+            "3": "200m\u00b2 ja suurem"
+        },
+        "nearby_homes_deal_types": {
+            "sell": "M\u00fc\u00fck",
+            "rent": "\u00dc\u00fcr"
+        },
+        "nearby_homes_object_types": {
+            "apartment": "Korterid",
+            "house": "Majad",
+            "premise": "\u00c4ripinnad",
+            "land": "Maat\u00fckid"
+        },
+        "counties": [
+            {
+                "county_id": 114,
+                "county_name": "Tallinn",
+                "county_id_real": 1,
+                "parish_id": 1061,
+                "old_parish_id": 421,
+                "orderby": 1,
+                "fast_selection": 1
+            },
+            {
+                "county_id": 115,
+                "county_name": "Tartu linn",
+                "county_id_real": 12,
+                "parish_id": 1063,
+                "old_parish_id": 450,
+                "orderby": 2,
+                "fast_selection": 1
+            },
+            {
+                "county_id": 116,
+                "county_name": "P\u00e4rnu linn",
+                "county_id_real": 9,
+                "parish_id": 1045,
+                "old_parish_id": 444,
+                "orderby": 3,
+                "fast_selection": 1
+            },
+            {
+                "county_id": 113,
+                "county_name": "--------------------",
+                "county_id_real": 0,
+                "parish_id": 0,
+                "old_parish_id": null,
+                "orderby": 4,
+                "fast_selection": 1
+            },
+            {
+                "county_id": 1,
+                "county_name": "Harjumaa",
+                "country_id": 1,
+                "ehak": 37,
+                "google": "{\"place_id\":\"ChIJkawxZkDqkkYRIGD8GG2zAAM\",\"viewport\":{\"south\":58.99179801894007,\"west\":23.730084543976677,\"north\":59.700136364568436,\"east\":25.95511650137062},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 2,
+                "county_name": "Hiiumaa",
+                "country_id": 1,
+                "ehak": 39,
+                "google": "{\"place_id\":\"ChIJM5I389bo8kYR9T2WOmmzKvI\",\"viewport\":{\"south\":58.68708874121697,\"west\":22.03943184228286,\"north\":59.09246516134773,\"east\":23.069073954929532},\"types\":[\"natural_feature\",\"establishment\"]}"
+            },
+            {
+                "county_id": 3,
+                "county_name": "Ida-Virumaa",
+                "country_id": 1,
+                "ehak": 45,
+                "google": "{\"place_id\":\"ChIJe13Sj0NglEYRQGD8GG2zAAM\",\"viewport\":{\"south\":58.82807413626118,\"west\":26.702284945337794,\"north\":59.471155041364455,\"east\":28.210025813437728},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 5,
+                "county_name": "J\u00e4rvamaa",
+                "country_id": 1,
+                "ehak": 52,
+                "google": "{\"place_id\":\"ChIJYYCdyCg4k0YRYGD8GG2zAAM\",\"viewport\":{\"south\":58.606136958606186,\"west\":25.04454523938129,\"north\":59.26965660023995,\"east\":26.16883368788348},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 4,
+                "county_name": "J\u00f5gevamaa",
+                "country_id": 1,
+                "ehak": 50,
+                "google": "{\"place_id\":\"ChIJQZDt9tyulEYRUGD8GG2zAAM\",\"viewport\":{\"south\":58.470867784523946,\"west\":25.750621301146367,\"north\":59.07102337676078,\"east\":27.43962792538015},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 6,
+                "county_name": "L\u00e4\u00e4nemaa",
+                "country_id": 1,
+                "ehak": 56,
+                "google": "{\"place_id\":\"ChIJkYf9Ff9Y7UYRcGD8GG2zAAM\",\"viewport\":{\"south\":58.715945888090936,\"west\":23.077872579465517,\"north\":59.30435965726146,\"east\":24.192610793242554},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 7,
+                "county_name": "L\u00e4\u00e4ne-Virumaa",
+                "country_id": 1,
+                "ehak": 60,
+                "google": "{\"place_id\":\"ChIJ0zwY69Z1k0YRgGD8GG2zAAM\",\"viewport\":{\"south\":58.87692691469341,\"west\":25.536312858875544,\"north\":59.82201416633294,\"east\":26.9611477068317},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 9,
+                "county_name": "P\u00e4rnumaa",
+                "country_id": 1,
+                "ehak": 68,
+                "google": "{\"place_id\":\"ChIJpYnrfIb-7EYRoGD8GG2zAAM\",\"viewport\":{\"south\":57.864544020560444,\"west\":23.399795753353224,\"north\":58.77437980905312,\"east\":25.307320136874335},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 8,
+                "county_name": "P\u00f5lvamaa",
+                "country_id": 1,
+                "ehak": 64,
+                "google": "{\"place_id\":\"ChIJQZDt9tyulEYRUGD8GG2zAAM\",\"viewport\":{\"south\":58.470867784523946,\"west\":25.750621301146367,\"north\":59.07102337676078,\"east\":27.43962792538015},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 10,
+                "county_name": "Raplamaa",
+                "country_id": 1,
+                "ehak": 71,
+                "google": "{\"place_id\":\"ChIJGVNYfDct7UYRsGD8GG2zAAM\",\"viewport\":{\"south\":58.65553320191278,\"west\":24.07075742985331,\"north\":59.22790396185379,\"east\":25.333961616209105},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 11,
+                "county_name": "Saaremaa",
+                "country_id": 1,
+                "ehak": 74,
+                "google": "{\"place_id\":\"ChIJfX8GVYtt8kYR7P8YIz-g3d4\",\"viewport\":{\"south\":57.90440033828151,\"west\":21.82810044777489,\"north\":58.64212445378197,\"east\":23.328578978942247},\"types\":[\"natural_feature\",\"establishment\"]}"
+            },
+            {
+                "county_id": 12,
+                "county_name": "Tartumaa",
+                "country_id": 1,
+                "ehak": 79,
+                "google": "{\"place_id\":\"ChIJBWDePa0260YR0GD8GG2zAAM\",\"viewport\":{\"south\":58.027677080405695,\"west\":26.051904199093215,\"north\":58.78133884516047,\"east\":27.553001578792855},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 13,
+                "county_name": "Valgamaa",
+                "country_id": 1,
+                "ehak": 81,
+                "google": "{\"place_id\":\"ChIJpYnrfIb-7EYRoGD8GG2zAAM\",\"viewport\":{\"south\":57.864544020560444,\"west\":23.399795753353224,\"north\":58.77437980905312,\"east\":25.307320136874335},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 14,
+                "county_name": "Viljandimaa",
+                "country_id": 1,
+                "ehak": 84,
+                "google": "{\"place_id\":\"ChIJHeNB2iOZ7EYR8GD8GG2zAAM\",\"viewport\":{\"south\":57.955780749063614,\"west\":24.97193970655948,\"north\":58.690096677451315,\"east\":26.191101415408344},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            },
+            {
+                "county_id": 15,
+                "county_name": "V\u00f5rumaa",
+                "country_id": 1,
+                "ehak": 87,
+                "google": "{\"place_id\":\"ChIJXTMR3X736kYRAGH8GG2zAAM\",\"viewport\":{\"south\":57.50931275390348,\"west\":26.370877501322884,\"north\":58.11903914619434,\"east\":27.818994714242827},\"types\":[\"administrative_area_level_1\",\"political\"]}"
+            }
+        ],
+        "parishes": [
+            {
+                "row_number": 25,
+                "parish_id": 152,
+                "parish_name": "Alatskivi vald",
+                "county_id": 12,
+                "ehak": 126,
+                "new_ehak": 586,
+                "new_city_ehak": null,
+                "new_parish_id": 1041,
+                "new_parish_name": "Peipsi\u00e4\u00e4re vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 5
+            },
+            {
+                "row_number": 26,
+                "parish_id": 153,
+                "parish_name": "Haaslava vald",
+                "county_id": 12,
+                "ehak": 185,
+                "new_ehak": 291,
+                "new_city_ehak": null,
+                "new_parish_id": 1016,
+                "new_parish_name": "Kastre vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 27,
+                "parish_id": 154,
+                "parish_name": "Kambja vald",
+                "county_id": 12,
+                "ehak": 282,
+                "new_ehak": 283,
+                "new_city_ehak": null,
+                "new_parish_id": 1014,
+                "new_parish_name": "Kambja vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 2
+            },
+            {
+                "row_number": 28,
+                "parish_id": 155,
+                "parish_name": "Konguta vald",
+                "county_id": 12,
+                "ehak": 331,
+                "new_ehak": 171,
+                "new_city_ehak": null,
+                "new_parish_id": 1003,
+                "new_parish_name": "Elva vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 7
+            },
+            {
+                "row_number": 29,
+                "parish_id": 156,
+                "parish_name": "Laeva vald",
+                "county_id": 12,
+                "ehak": 383,
+                "new_ehak": 796,
+                "new_city_ehak": null,
+                "new_parish_id": 1064,
+                "new_parish_name": "Tartu vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 30,
+                "parish_id": 157,
+                "parish_name": "Luunja vald",
+                "county_id": 12,
+                "ehak": 432,
+                "new_ehak": 432,
+                "new_city_ehak": null,
+                "new_parish_id": 1028,
+                "new_parish_name": "Luunja vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 1
+            },
+            {
+                "row_number": 31,
+                "parish_id": 158,
+                "parish_name": "Meeksi vald",
+                "county_id": 12,
+                "ehak": 454,
+                "new_ehak": 291,
+                "new_city_ehak": null,
+                "new_parish_id": 1016,
+                "new_parish_name": "Kastre vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 32,
+                "parish_id": 158,
+                "parish_name": "Meeksi vald",
+                "county_id": 12,
+                "ehak": 454,
+                "new_ehak": 708,
+                "new_city_ehak": null,
+                "new_parish_id": 1054,
+                "new_parish_name": "R\u00e4pina vald",
+                "new_county_id": 8,
+                "new_county_name": "P\u00f5lvamaa",
+                "old_parish_count": 3
+            },
+            {
+                "row_number": 33,
+                "parish_id": 159,
+                "parish_name": "M\u00e4ksa vald",
+                "county_id": 12,
+                "ehak": 501,
+                "new_ehak": 291,
+                "new_city_ehak": null,
+                "new_parish_id": 1016,
+                "new_parish_name": "Kastre vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 34,
+                "parish_id": 160,
+                "parish_name": "N\u00f5o vald",
+                "county_id": 12,
+                "ehak": 528,
+                "new_ehak": 528,
+                "new_city_ehak": null,
+                "new_parish_id": 1038,
+                "new_parish_name": "N\u00f5o vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 1
+            },
+            {
+                "row_number": 35,
+                "parish_id": 161,
+                "parish_name": "Peipsi\u00e4\u00e4re vald",
+                "county_id": 12,
+                "ehak": 587,
+                "new_ehak": 586,
+                "new_city_ehak": null,
+                "new_parish_id": 1041,
+                "new_parish_name": "Peipsi\u00e4\u00e4re vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 5
+            },
+            {
+                "row_number": 36,
+                "parish_id": 162,
+                "parish_name": "Piirissaare vald",
+                "county_id": 12,
+                "ehak": 595,
+                "new_ehak": 796,
+                "new_city_ehak": null,
+                "new_parish_id": 1064,
+                "new_parish_name": "Tartu vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 37,
+                "parish_id": 163,
+                "parish_name": "Puhja vald",
+                "county_id": 12,
+                "ehak": 605,
+                "new_ehak": 171,
+                "new_city_ehak": null,
+                "new_parish_id": 1003,
+                "new_parish_name": "Elva vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 7
+            },
+            {
+                "row_number": 38,
+                "parish_id": 164,
+                "parish_name": "Rannu vald",
+                "county_id": 12,
+                "ehak": 666,
+                "new_ehak": 171,
+                "new_city_ehak": null,
+                "new_parish_id": 1003,
+                "new_parish_name": "Elva vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 7
+            },
+            {
+                "row_number": 142,
+                "parish_id": 165,
+                "parish_name": "R\u00f5ngu vald",
+                "county_id": 12,
+                "ehak": 694,
+                "new_ehak": 171,
+                "new_city_ehak": null,
+                "new_parish_id": 1003,
+                "new_parish_name": "Elva vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 7
+            },
+            {
+                "row_number": 143,
+                "parish_id": 166,
+                "parish_name": "Tartu vald",
+                "county_id": 12,
+                "ehak": 794,
+                "new_ehak": 796,
+                "new_city_ehak": null,
+                "new_parish_id": 1064,
+                "new_parish_name": "Tartu vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 144,
+                "parish_id": 167,
+                "parish_name": "T\u00e4htvere vald",
+                "county_id": 12,
+                "ehak": 831,
+                "new_ehak": 793,
+                "new_city_ehak": null,
+                "new_parish_id": 1063,
+                "new_parish_name": "Tartu",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 2
+            },
+            {
+                "row_number": 145,
+                "parish_id": 168,
+                "parish_name": "Vara vald",
+                "county_id": 12,
+                "ehak": 861,
+                "new_ehak": 586,
+                "new_city_ehak": null,
+                "new_parish_id": 1041,
+                "new_parish_name": "Peipsi\u00e4\u00e4re vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 5
+            },
+            {
+                "row_number": 146,
+                "parish_id": 169,
+                "parish_name": "V\u00f5nnu vald",
+                "county_id": 12,
+                "ehak": 915,
+                "new_ehak": 291,
+                "new_city_ehak": null,
+                "new_parish_id": 1016,
+                "new_parish_name": "Kastre vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 4
+            },
+            {
+                "row_number": 147,
+                "parish_id": 170,
+                "parish_name": "\u00dclenurme vald",
+                "county_id": 12,
+                "ehak": 949,
+                "new_ehak": 283,
+                "new_city_ehak": null,
+                "new_parish_id": 1014,
+                "new_parish_name": "Kambja vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 2
+            },
+            {
+                "row_number": 217,
+                "parish_id": 448,
+                "parish_name": "Elva",
+                "county_id": 12,
+                "ehak": 170,
+                "new_ehak": 171,
+                "new_city_ehak": 1586,
+                "new_parish_id": 1003,
+                "new_parish_name": "Elva vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 7
+            },
+            {
+                "row_number": 218,
+                "parish_id": 449,
+                "parish_name": "Kallaste",
+                "county_id": 12,
+                "ehak": 279,
+                "new_ehak": 586,
+                "new_city_ehak": 2596,
+                "new_parish_id": 1041,
+                "new_parish_name": "Peipsi\u00e4\u00e4re vald",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 5
+            },
+            {
+                "row_number": 219,
+                "parish_id": 450,
+                "parish_name": "Tartu",
+                "county_id": 12,
+                "ehak": 795,
+                "new_ehak": 793,
+                "new_city_ehak": 8151,
+                "new_parish_id": 1063,
+                "new_parish_name": "Tartu",
+                "new_county_id": 12,
+                "new_county_name": "Tartumaa",
+                "old_parish_count": 2
+            }
+        ],
+        "cities": [
+            {
+                "city_id": 5708,
+                "city_name": "Annelinn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10003,
+                "city_type": 10,
+                "old_city_ehak": 10003,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13255,
+                "old_city_name": "Annelinn",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 1334,
+                "city_name": "Haage",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 1681,
+                "city_type": 8,
+                "old_city_ehak": 1681,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7571,
+                "old_city_name": "Haage",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5706,
+                "city_name": "Ihaste",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10004,
+                "city_type": 10,
+                "old_city_ehak": 10004,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13256,
+                "old_city_name": "Ihaste",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 1531,
+                "city_name": "Ilmatsalu alevik",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 2050,
+                "city_type": 7,
+                "old_city_ehak": 2050,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7573,
+                "old_city_name": "Ilmatsalu",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 1530,
+                "city_name": "Ilmatsalu k\u00fcla",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 2049,
+                "city_type": 8,
+                "old_city_ehak": 2049,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7572,
+                "old_city_name": "Ilmatsalu",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5707,
+                "city_name": "Jaamam\u00f5isa",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10005,
+                "city_type": 10,
+                "old_city_ehak": 10005,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13265,
+                "old_city_name": "Jaamam\u00f5isa",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 1857,
+                "city_name": "Kandik\u00fcla",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 2659,
+                "city_type": 8,
+                "old_city_ehak": 2659,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7574,
+                "old_city_name": "Kandik\u00fcla",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 1887,
+                "city_name": "Kardla",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 2710,
+                "city_type": 8,
+                "old_city_ehak": 2710,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7575,
+                "old_city_name": "Kardla",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5704,
+                "city_name": "Karlova",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10006,
+                "city_type": 10,
+                "old_city_ehak": 10006,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13257,
+                "old_city_name": "Karlova",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5705,
+                "city_name": "Kesklinn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10007,
+                "city_type": 10,
+                "old_city_ehak": 10007,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13254,
+                "old_city_name": "Kesklinn",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5702,
+                "city_name": "Maarjam\u00f5isa",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10008,
+                "city_type": 10,
+                "old_city_ehak": 10008,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 66078,
+                "old_city_name": "Maarjam\u00f5isa",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 3317,
+                "city_name": "M\u00e4rja",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 5277,
+                "city_type": 7,
+                "old_city_ehak": 5277,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7576,
+                "old_city_name": "M\u00e4rja",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 3760,
+                "city_name": "Pihva",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 6155,
+                "city_type": 8,
+                "old_city_ehak": 6155,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7577,
+                "old_city_name": "Pihva",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5703,
+                "city_name": "Raadi-Kruusam\u00e4e",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10009,
+                "city_type": 10,
+                "old_city_ehak": 10009,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13259,
+                "old_city_name": "Raadi-Kruusam\u00e4e",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 4058,
+                "city_name": "Rahinge",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 6724,
+                "city_type": 8,
+                "old_city_ehak": 6724,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7578,
+                "old_city_name": "Rahinge",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5715,
+                "city_name": "R\u00e4nilinn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10012,
+                "city_type": 10,
+                "old_city_ehak": 10012,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13262,
+                "old_city_name": "R\u00e4nilinn",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 4288,
+                "city_name": "R\u00f5hu",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 7158,
+                "city_type": 8,
+                "old_city_ehak": 7158,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7579,
+                "old_city_name": "R\u00f5hu",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5717,
+                "city_name": "Ropka",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10010,
+                "city_type": 10,
+                "old_city_ehak": 10010,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13258,
+                "old_city_name": "Ropka",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5718,
+                "city_name": "Ropka t\u00f6\u00f6stusrajoon",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10011,
+                "city_type": 10,
+                "old_city_ehak": 10011,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 66154,
+                "old_city_name": "Ropka t\u00f6\u00f6stusrajoon",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5716,
+                "city_name": "Supilinn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10013,
+                "city_type": 10,
+                "old_city_ehak": 10013,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13263,
+                "old_city_name": "Supilinn",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5714,
+                "city_name": "T\u00e4htvere",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10015,
+                "city_type": 10,
+                "old_city_ehak": 10015,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13252,
+                "old_city_name": "T\u00e4htvere",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5036,
+                "city_name": "T\u00e4htvere k\u00fcla",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 8560,
+                "city_type": 8,
+                "old_city_ehak": 8560,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7580,
+                "old_city_name": "T\u00e4htvere k\u00fcla",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5713,
+                "city_name": "Tammelinn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10014,
+                "city_type": 10,
+                "old_city_ehak": 10014,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13251,
+                "old_city_name": "Tammelinn",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 4820,
+                "city_name": "Tartu linn",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 8151,
+                "city_type": 5,
+                "old_city_ehak": null,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": null,
+                "old_city_name": null,
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5053,
+                "city_name": "T\u00fcki",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 8590,
+                "city_type": 8,
+                "old_city_ehak": 8590,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7581,
+                "old_city_name": "T\u00fcki",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5710,
+                "city_name": "\u00dclej\u00f5e",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10019,
+                "city_type": 10,
+                "old_city_ehak": 10019,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13261,
+                "old_city_name": "\u00dclej\u00f5e",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5711,
+                "city_name": "Vaksali",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10016,
+                "city_type": 10,
+                "old_city_ehak": 10016,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13264,
+                "old_city_name": "Vaksali",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5712,
+                "city_name": "Variku",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10017,
+                "city_type": 10,
+                "old_city_ehak": 10017,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13260,
+                "old_city_name": "Variku",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5709,
+                "city_name": "Veeriku",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 10018,
+                "city_type": 10,
+                "old_city_ehak": 10018,
+                "old_parish_ehak": 795,
+                "old_county_ehak": 78,
+                "parent_city_id": 4820,
+                "parent_city_name": "Tartu linn",
+                "old_city_id": 13253,
+                "old_city_name": "Veeriku",
+                "old_parish_id": 450,
+                "old_parish_name": "Tartu",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            },
+            {
+                "city_id": 5515,
+                "city_name": "Vorbuse",
+                "county_id": 12,
+                "parish_id": 1063,
+                "ehak": 9483,
+                "city_type": 8,
+                "old_city_ehak": 9483,
+                "old_parish_ehak": 831,
+                "old_county_ehak": 78,
+                "parent_city_id": null,
+                "parent_city_name": null,
+                "old_city_id": 7582,
+                "old_city_name": "Vorbuse",
+                "old_parish_id": 167,
+                "old_parish_name": "T\u00e4htvere vald",
+                "old_county_id": 12,
+                "old_county_name": "Tartumaa"
+            }
+        ]
+    },
+    "savedSearches": [],
+    "agentForm": false,
+    "objectCount": {
+        "o1_1": 10965,
+        "o1_3": 2193,
+        "o2_1": 4244,
+        "o2_3": 105,
+        "o4_1": 3753,
+        "o4_3": 73,
+        "o8_1": 1115,
+        "o8_3": 3127,
+        "date_counted": "2025-05-27 00:00:00",
+        "bid_objects": 137,
+        "classified_ads": 0,
+        "id": 8336,
+        "new_price": 179
+    },
+    "indexData": {
+        "indexValue": 179.7,
+        "delta": -0.99,
+        "arrowClass": "down"
+    },
+    "blogComments": [
+        {
+            "tags": null,
+            "title": "Moodul- ja tehasemaja ostmine pangalaenuga: kuidas see k\u00e4ib ja millega arvestama peab?",
+            "date_created": "2025-05-26 11:22:43",
+            "text": "Moodul- ja tehasemajad muutuvad aina populaarsemaks, sest need saavad kiiresti valmis ning ehituskvaliteet on neil aina parem. K\u00fcll aga v\u00f5ib segadust tekitada majaostu finantseerimine, kuna valmimisprotsess on neil iseehitatud majast veidi teistsugune.\nKui iseehitatud maja puhul k\u00fcsivad ehitajad tavaliselt raha p\u00e4rast maja valmimist, siis moodul- ja tehasemajade tootjad soovivad tasu \u00fcldjuhul enne. Kuna laenuraha saab v\u00e4lja maksta alles piisava tagatise olemasolul ja ehitamata maja tagatiseks ei saa kasutada, siis on tarvis laenutaotluseks kaardistada nii majaprojekti kogumaksumus kui ka omafinantseeringu v\u00f5i tagatise kasutamise v\u00f5imalused. Kohe alguses asjakohane mainida, et kui maja hind j\u00e4\u00e4b alla 30 000 euro, siis on v\u00f5imalik kasutada tagatiseta laenu ehk kodu v\u00e4ikelaenu, millel puudub omafinantseeringu n\u00f5ue. Kui summa on suurem, siis kaasneb ka omafinantseeringu n\u00f5ue ja tagatise seadmine vajadus.\n\nMillele enne ehitust t\u00e4helepanu p\u00f6\u00f6rata?\nMoodul- ja tehasemaja elemendid valmistatakse tehases. Lihtsalt \u00f6eldes on m\u00f5lemal juhul tegemist tehasemajaga, kuid moodulmaja elemendid monteeritakse mooduliteks tehases ning tehasemajal majaostja krundil. Pangalaenu taotlemine k\u00e4ib aga m\u00f5lemal juhul samamoodi.\nMajaprojekti kaardistamine algab nii moodul- kui ka tehasemaja puhul sobiva krundi leidmisest. Samuti tuleb t\u00e4helepanu p\u00f6\u00f6rata, kas kinnistule j\u00f5uab tsentraalne vesi ja kanalisatsioon v\u00f5i peab sinna rajama lokaalse mahuti ja kaevu. M\u00f5istagi on oluline ka elektri olemasolu, kuna elektriga liitumine v\u00f5ib t\u00e4hendada olenevalt asukohast \u00fcpris suurt lisakulu.\nEraldi tuleks \u00fcle vaadata juurdep\u00e4\u00e4suteega seotud n\u00fcansid: kas see on olemas, kellele see kuulub ja kuidas kasutamine on kokku lepitud. Kui juurdep\u00e4\u00e4sutee puudub, siis peab hindama, kuidas aastaringne juurdep\u00e4\u00e4sutee luua ning kui palju see maksma l\u00e4heks.\nKui sobiv krunt on olemas v\u00f5i leitud, siis j\u00e4rgmine samm on konkreetse moodul- v\u00f5i tehasemaja valimine. Pakkumiste sirvimisel tuleks lisaks maja suurusele ja v\u00e4limisele vaadata ka seda, mis hinna sisse kuulub. M\u00f5ned tootjad pakuvad v\u00f5tmed-k\u00e4tte lahendust \u2013 t\u00e4nap\u00e4eval on v\u00f5imalik osta endale suvemaja, mis tuuakse su krundile ja kuhu on v\u00f5imalik kohe sisse kolida. Teised tootjad j\u00e4tavad soodsama hinna nimel paljud t\u00f6\u00f6d majaomaniku tellida, n\u00e4iteks vundamendi ehituse.\n\nMida kasutada lisatagatisena?\nP\u00e4rast majaprojekti kogumaksumuse v\u00e4ljaselgitamiseks tuleb m\u00f5elda omafinantseeringu peale. Laenu saamiseks on \u00fcldjuhul vajalik v\u00e4hemalt 15% suurust omafinantseeringut, kuid konkreetne summa oleneb lisatagatise olemasolust ja v\u00e4\u00e4rtusest.\nMida lisatagatisena kasutada saab? \u00dcks tagatis on tavaliselt krunt, kuhu hakatakse maja p\u00fcstitama, aga tihti kasutatakse sellena ehitusperioodil ka olemasolevat eluaset.\nTagatised tuleb laenu saamiseks aktsepteeritud kinnisvarahindaja poolt hinnata. Maja p\u00fcstitamiseks valitud kinnistu eksperthinnang peaks sisaldama nii hetke kui ka tuleviku turuv\u00e4\u00e4rtust. Hetke turuv\u00e4\u00e4rtus annab teadmise, kui palju krundi vastu on v\u00f5imalik laenu anda, ning tuleviku turuv\u00e4\u00e4rtus hinnangu, kui palju maksab kinnistu siis, kui sellele on maja p\u00fcstitatud.\nTuleviku turuv\u00e4\u00e4rtus on ka omanikule oluline, et hinnata, kas maja soetusmaksumus koos krundiga on v\u00e4iksem v\u00f5i suurem ning kas lisatagatise vabastamine ilma laenu osalise tagasimaksmiseta on v\u00f5imalik.\nKui projekti kalkulatsioon on detailne, omafinantseering v\u00f5i lisatagatis olemas ja ehitusetapid selged, siis annab see nii laenuv\u00f5tjale kui ka pangale selguse, kas ja kui palju saab laenuraha kasutada. Laenu taotlemist tuleb alustada taotluse esitamisest ning olla valmis ka selleks, et peale sissetuleku k\u00fcsitakse tagatiste eksperthinnanguid ning maja pakkumist, mis sisaldab ka infot raha liikumise kohta.\nAutor: Anne P\u00e4rgma\nSwedbanki eluasemelaenude valdkonnajuhtThe post Moodul- ja tehasemaja ostmine pangalaenuga: kuidas see k\u00e4ib ja millega arvestama peab? first appeared on ",
+            "link": "https:\/\/www.kinnisvaraweb.ee\/blog\/moodul-ja-tehasemaja-ostmine-pangalaenuga-kuidas-see-kaib-ja-millega-arvestama-peab\/?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+            "comments": null,
+            "image": "69316a38e5a0cb201edcba5371a30529",
+            "lang": 1,
+            "orderby": 5891056,
+            "blog_type": 1
+        },
+        {
+            "tags": null,
+            "title": "KV.EE Indeks \u00fcllatab allapoole liikumisega",
+            "date_created": "2025-05-21 05:00:46",
+            "text": "Elamispindade keskmist pakkumiste hinda kajastav KV.EE Indeks n\u00e4itab 179,7 punkti. Aastaga on indeks kerkinud 1,7%, viimaste kuudega on indeks langenud 1,2%. Elamispindade m\u00fc\u00fcgipakkumiste arvu peegeldav KV.EE objektide arvu indeks on 79,7 punktil. Viimaste kuudega on m\u00fc\u00fcgipakkumisi portaali KV.EE hoogsalt juurde tulnud.\nKV.EE Indeks k\u00e4is 2024. a suvel-s\u00fcgisel l\u00e4bi lauge p\u00f5hja. 2024. a teises pooles aktiveerusid elamispindade turu tehingud. Aktiivsem n\u00f5udlus ajas hindu m\u00f5nev\u00f5rra \u00fclespoole. Hinnat\u00f5usu toetas elamispindade m\u00fc\u00fcgipakkumiste arvu v\u00e4henemine portaalis KV.EE.\n2025. a algusest alates on elamispindade m\u00fc\u00fcgipakkumiste arv portaalis KV.EE kindlasuunaliselt kasvanud. V\u00f5rreldes jaanuariga on portaalis KV.EE elamispindade m\u00fc\u00fcgipakkumisi 14% rohkem.\nM\u00fc\u00fcgipakkumiste arvu suurenemine on kasvatanud konkurentsi kinnisvaram\u00fc\u00fcjate vahel. Kasvava konkurentsi tingimustes p\u00fcsisid hinnad visalt paigal. Viimastel n\u00e4dalatel on hinnak\u00f5ver siiski pisut allapoole p\u00f6\u00f6rdunud.\nSuureneval m\u00fc\u00fcgipakkumiste arvul ja turuosaliste optimistlikele ootustele vastupidiselt allapoole keeranud pakkumishindade k\u00f5ver on tegurid, mil tasub silm pingsalt peal hoida. Operatiivsest statistikat ja marginaalsetest muutustest kiirelt trendi p\u00f6\u00f6rdumist v\u00e4lja lugeda ei tohiks. Hinnalanguse t\u00f5en\u00e4osus Eesti elamispindade turul ei ole k\u00f5ige t\u00f5en\u00e4olisem stsenaarium.\nSiiski n\u00e4itab hinnak\u00f5rvera allapoole liikumine ajal, mil majanduskasv on taastumas, et elamispindade turg on habras. Loodame elamispindade turult positiivseid arenguid, kuid kiireteks liikumist ei \u00fches ega teises suunas p\u00f5hjust pigem ei ole.\nVaata l\u00e4hemalt, mis toimub kinnisvaraturul portaalist KV.EE.\nThe post KV.EE Indeks \u00fcllatab allapoole liikumisega first appeared on ",
+            "link": "https:\/\/www.kinnisvaraweb.ee\/blog\/kv-ee-indeks-ullatab-allapoole-liikumisega\/?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+            "comments": null,
+            "image": "e14c19c7038694b4503b4cbfc607b50f",
+            "lang": 1,
+            "orderby": 5891057,
+            "blog_type": 1
+        },
+        {
+            "tags": null,
+            "title": "KV.EE kinnisvara-podcast: \u00fc\u00fcriinvesteeringute kulude haldamine",
+            "date_created": "2025-05-15 07:10:27",
+            "text": "KV.EE kinnisvara-podcast\u2019i 112. osas on k\u00fclas ettev\u00f5tja ja \u00fc\u00fcriinvestor Risto Eelmaa, kes r\u00e4\u00e4gib oma praktilistest kogemustest, kuidas juhtida \u00fc\u00fcriinvesteeringute haldamisega seonduvaid tegevusi ja kulusid. Saadet juhib ja k\u00fcsimusi esitab kinnisvarakonsultant ja -koolitaja T\u00f5nu Toompark.\nAlustuseks annab Risto Eelmaa raamid, kui suurt \u00fc\u00fcriportfelli ta oma muude ettev\u00f5tlusega seonduvate tegemiste k\u00f5rvalt haldab. Seej\u00e4rel k\u00e4ime \u00fckshaaval l\u00e4bi \u00fc\u00fcriportfelli haldamisega seotud nii ajalised kui rahalised tegevused, mis l\u00f5ppkokkuv\u00f5ttes tootluse moodustavad.\nRisto Eelmaa r\u00e4\u00e4gib, millised on olnud tema valikud investeerimisobjektide valikul nii korteri vanuse ja asukoha l\u00f5ikes. Jutuks tuleb, kuidas on korraldatud \u00fchistu tegemistega kursis olemine ja koosolekutel osalemine.\nV\u00f5tame k\u00f5ne alla \u00fc\u00fcrikorteri sisustamisega seonduva ja investeeringu finantseerimisega seonduva. T\u00e4iendavalt r\u00e4\u00e4gime, kui palju Risto Eelmaa p\u00fchendab aega ja energiat \u00fc\u00fcrnike otsimisele ja muudele \u00fc\u00fcrileandmisega seonduvatele jooksvatele tegevustele.\nL\u00f5petuseks annab Risto Eelmaa kuulajatele-vaatajatele m\u00f5ne konkreetse oma m\u00f5tte, mille \u00fc\u00fcriinvestor v\u00f5iks saatest endaga kaasa v\u00f5tta.\nVaata saadet videona\n\nKuula saadet\n\ufeff\nKutsume h\u00e4id kuulajaid \u00fcles: andke teada, milliste teemade k\u00e4sitlemisest olete huvitatud? Keda sooviksite kuulda saate k\u00fclalisena? Kas soovite koguni ise tulla m\u00f5nest p\u00e4evakajalisest teemast r\u00e4\u00e4kima? Sellekohased m\u00f5tted ja ettepanekud on teretulnud meiliaadressile \u2060klienditugi@kv.ee\u2060.\nTelli podcast enda podcast&#8217;i \u00e4ppis v\u00f5i pane laik ja j\u00e4lgi \u2060KV.EE Facebook\u2060&#8216;i lehte.\nVaata podcast&#8217;i videona \u2060KV.EE YouTube&#8217;i EE video\u2060&#8216;i kanalil. V\u00e4rske podcasti leiad KV.EE maaklerikeskkonnast RBO\u00a0 v\u00f5i \u2060Spotify lehelt\u2060.The post KV.EE kinnisvara-podcast: \u00fc\u00fcriinvesteeringute kulude haldamine first appeared on ",
+            "link": "https:\/\/www.kinnisvaraweb.ee\/blog\/kv-ee-kinnisvara-podcast-uuriinvesteeringute-kulude-haldamine\/?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+            "comments": null,
+            "image": "b2d0717ff20feab11da3b6262cca896a",
+            "lang": 1,
+            "orderby": 5891058,
+            "blog_type": 1
+        }
+    ],
+    "visitorsYesterday": 98321,
+    "userCompaniesList": [],
+    "langForJS": {
+        "add_contact": "Lisakontakti lisamine",
+        "btn_cancel": "T\u00fchista",
+        "btn_confirm": "Kinnita",
+        "btn_no": "Ei",
+        "btn_order_agent": "Telli e-agent",
+        "btn_select_area": "M\u00e4rgi ala",
+        "btn_share": "Jaga",
+        "btn_stop": "Katkesta",
+        "btn_yes": "Jah",
+        "c2c_avg_180d_object_lifetime_tooltip": "Ajahetkele eelnenud 3 kuu keskmine",
+        "c2c_avg_service_duration_tooltip": "Ajahetkele eelnenud 3 kuu keskmine",
+        "cataster_layer": "Katastrikiht",
+        "certificate_not_found": "Sertifikaati ei leitud",
+        "confirm_remove_object_reservation": "Kas oled kindel, et soovid broneeringu eemaldada",
+        "february": "Veebruar",
+        "fit_results_to_map": "Mahuta tulemused kaardile",
+        "form_contains_errors": "Esineb vigu:",
+        "id_card_no_implemented": "ID kaardi lahendust ei leitud",
+        "january": "Jaanuar",
+        "lbl_autocomplete_broker": "maakler",
+        "lbl_autocomplete_company": "firma",
+        "lbl_autocomplete_dev": "uusarendus",
+        "lbl_autocomplete_keyword": "m\u00e4rks\u00f5na",
+        "lbl_autocomplete_location": "asukoht",
+        "lbl_cities": "Linnad\/k\u00fclad",
+        "lbl_deselect_all": "T\u00fchista valikud",
+        "lbl_old": "vana",
+        "lbl_select_all": "Vali k\u00f5ik",
+        "march": "M\u00e4rts",
+        "msg_development_img_limit_error_pluploader": "Maksimaalselt lubatud 10 pilti",
+        "msg_img_limit_error_pluploader": "Maksimaalselt lubatud 48 pilti",
+        "msg_img_type_error_pluploader": "Pilt peab olema .png, .jpg ja .jpeg laiendiga",
+        "msg_small_img_pluploader": "Pildi m\u00f5\u00f5dud on v\u00e4iksemad kui 500x375 px",
+        "object_x_out_of_y": "[current]. objekt [total]st",
+        "pin_blocked": "PIN kood blokeeritud",
+        "popular_searches": "Populaarsed otsingud",
+        "this_is_a_required_select": "Valiku tegemine on kohustuslik",
+        "txt_hide_thumbnails": "Peida pildid",
+        "unknown_error_try_again": "Tekkis tundmatu viga - palun proovige uuesti",
+        "or": "v\u00f5i"
+    },
+    "activeDayTicket": null,
+    "OASource": "est",
+    "orderArray": {
+        "ob": "J\u00e4rjesta",
+        "cdwl": "Alates uuemast",
+        "cawl": "Alates vanemast",
+        "pawl": "Hind alates odavamast",
+        "pdwl": "Hind alates kallimast",
+        "mawl": "\u20ac\/m2 hind alates odavamast",
+        "mdwl": "\u20ac\/m2 hind alates kallimast",
+        "aawl": "V\u00e4him pindala",
+        "adwl": "Suurim pindala",
+        "fawl": "Tubade j\u00e4rgi kasvavalt",
+        "fdwl": "Tubade j\u00e4rgi kahanevalt"
+    },
+    "cleanUrl": "&deal_type=2&county=12&parish=1063&cluster=true&zoom=12.310958924656257&nelat=58.41960338309929&nelng=26.803512094672676&swlat=58.33238981388714&swlng=26.664581359367745",
+    "queryString": "et%2Fapi%2Fsearch%2Fmap=&deal_type=2&county=12&parish=1063&cluster=true&zoom=12.310958924656257&nelat=58.41960338309929&nelng=26.803512094672676&swlat=58.33238981388714&swlng=26.664581359367745&orderby=ob&view_type=0&load=0&view=default&rooms_min=0&rooms_max=0&price_min=0&price_max=0&price_type=0&floor_not_last=0&floor_last=0&nr_of_people=0&year_built_min=0&year_built_max=0&energy_certs=&rss=0&search_type=new",
+    "searchId": 133365941,
+    "agentCreated": 0,
+    "searchUrl": "deal_type=2&county=12&parish=1063&view=default&search_type=new",
+    "agent": [],
+    "counts": 350,
+    "countsOverall": 351,
+    "objects": false,
+    "total": 348,
+    "object_type": null,
+    "markers": [
+        {
+            "count": 13,
+            "0": 58.37974104589984,
+            "1": 26.723511431468545,
+            "object_ids": "3158572,2976214,3667513,3748576,3364248,3222224,3745452,3716817,3748653,3745559,3737020,3731628,3751139",
+            "object_ids_count": 13,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.37714,
+                26.720689954492165,
+                58.381583371431,
+                26.7284129701679
+            ],
+            "distance": 668,
+            "viewed": []
+        },
+        {
+            "count": 31,
+            "0": 58.382988,
+            "1": 26.718329799999996,
+            "object_ids": "3750691,3740344,3274135,3198841,3463010,3718550,3235129,3485700,3734001,3678099,3730300,3460433,3733522,3318047,3746267,3740445,3750345,3460419,3484647,3733074,3736338,3748467,3442681,3749040,3751300,3042165,3746100,3706689,3719765,3421570,3617466",
+            "object_ids_count": 31,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.37668,
+                26.708972,
+                58.389588,
+                26.722853
+            ],
+            "distance": 1648,
+            "viewed": []
+        },
+        {
+            "count": 13,
+            "0": 58.3504106943687,
+            "1": 26.683165088258235,
+            "object_ids": "3291511,3734970,3748094,3716787,3750774,3747738,3161319,3408651,3750449,3750209,3578646,3613219,3747063",
+            "object_ids_count": 13,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3482557,
+                26.680864,
+                58.353011,
+                26.6848511
+            ],
+            "distance": 578,
+            "viewed": []
+        },
+        {
+            "count": 61,
+            "0": 58.374575552544634,
+            "1": 26.722255966605708,
+            "object_ids": "3252537,3460287,3750728,3565213,3618550,3435396,3724774,3651086,3729333,3558783,3736676,3300002,3333415,3256880,3737821,3749850,3745960,3661040,3534124,3486133,3745542,3679763,3710029,3744877,2944869,3418097,3556112,3748266,3723707,3636949,3604728,3750601,3748491,3723709,3260659,3737389,3710069,3196854,3718502,3702569,3651071,3745535,3610088,2666063,3749310,3379802,3675772,3744321,3653857,3380561,3743043,3198075,3178268,3734719,3748745,3192001,3744603,3647709,3749645,3751243,1888965",
+            "object_ids_count": 61,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.36738,
+                26.7165701,
+                58.3782501,
+                26.7326121
+            ],
+            "distance": 1528,
+            "viewed": []
+        },
+        {
+            "count": 11,
+            "0": 58.373249974461054,
+            "1": 26.696584188440326,
+            "object_ids": "2005285,3472280,3742353,3665747,3099062,3744781,3397809,3620939,3746544,3665509,3742563",
+            "object_ids_count": 11,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3709811190716,
+                26.6901147,
+                58.37488709999999,
+                26.7024475728436
+            ],
+            "distance": 840,
+            "viewed": []
+        },
+        {
+            "count": 4,
+            "0": 58.396799625,
+            "1": 26.752167650000004,
+            "object_ids": "3735937,3654070,3561158,3739810",
+            "object_ids_count": 4,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.39445190000001,
+                26.7510673,
+                58.39860770000001,
+                26.754933
+            ],
+            "distance": 514,
+            "viewed": []
+        },
+        {
+            "count": 21,
+            "0": 58.37593295766909,
+            "1": 26.70965165118423,
+            "object_ids": "3726527,3725033,3534156,3046003,3744735,3722437,3307919,3736251,3696698,3058386,3745494,3313995,3706586,3746144,3246179,3748777,3720736,3749591,3711690,3702438,3745546",
+            "object_ids_count": 21,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.372,
+                26.7037616,
+                58.3781812,
+                26.714854
+            ],
+            "distance": 944,
+            "viewed": []
+        },
+        {
+            "count": 21,
+            "0": 58.38079759047621,
+            "1": 26.752933714285717,
+            "object_ids": "3740971,3744900,3750120,3750541,3522174,3748630,3750523,3747859,3540521,3726515,3554083,3745498,3686237,3441272,3750190,3551284,3748495,3741848,3738738,3747145,3750540",
+            "object_ids_count": 21,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.374499,
+                26.7484192,
+                58.3867052,
+                26.758745
+            ],
+            "distance": 1485,
+            "viewed": []
+        },
+        {
+            "count": 21,
+            "0": 58.368734245274354,
+            "1": 26.73341900891607,
+            "object_ids": "3170315,3737949,3741517,3474819,3746537,3699032,3750380,3440727,3596143,3578854,3748489,3564733,2303976,3731560,3612371,3739437,3635652,3749492,3651886,3296651,3746734",
+            "object_ids_count": 21,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.362323,
+                26.725498,
+                58.373736,
+                26.742107
+            ],
+            "distance": 1596,
+            "viewed": []
+        },
+        {
+            "count": 2,
+            "0": 58.35728081326366,
+            "1": 26.734793802279547,
+            "object_ids": "3047651,3681459",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.355808,
+                26.733458,
+                58.3587536265273,
+                26.7361296045591
+            ],
+            "distance": 363,
+            "viewed": []
+        },
+        {
+            "count": 4,
+            "0": 58.373005766243885,
+            "1": 26.77972071010971,
+            "object_ids": "3395635,3740478,3060907,3750402",
+            "object_ids_count": 4,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.37198396497554,
+                26.775797,
+                58.37406,
+                26.784099340438843
+            ],
+            "distance": 536,
+            "viewed": []
+        },
+        {
+            "count": 7,
+            "0": 58.37409072053981,
+            "1": 26.6823948078887,
+            "object_ids": "3459603,3463733,3747247,3695684,3735973,3627264,3668230",
+            "object_ids_count": 7,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3676827,
+                26.6805895,
+                58.3770375,
+                26.6846752552209
+            ],
+            "distance": 1067,
+            "viewed": []
+        },
+        {
+            "count": 39,
+            "0": 58.38272725647788,
+            "1": 26.736762898325168,
+            "object_ids": "3739813,3466825,2321504,3748767,3387644,3589232,3691843,3748614,3719755,3737814,3550464,3749302,3739888,2561825,3741054,2946160,3746149,3244505,3550447,3048974,3643442,3210527,3163262,3153451,3720506,3548746,3582759,3706579,2344155,3554437,3369935,3364613,3751198,3739021,3451649,3751314,3109898,3751377,3741332",
+            "object_ids_count": 39,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3765415,
+                26.729424,
+                58.38971180000001,
+                26.7430025339127
+            ],
+            "distance": 1665,
+            "viewed": []
+        },
+        {
+            "0": 58.3484877,
+            "1": 26.7400302,
+            "object_id": 3363174,
+            "new_object": false,
+            "price": "560\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 5,
+            "0": 58.38405523490919,
+            "1": 26.6932087993947,
+            "object_ids": "3739838,3750613,2587858,3688082,3745341",
+            "object_ids_count": 5,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.382567,
+                26.691992,
+                58.386127,
+                26.695060496973493
+            ],
+            "distance": 434,
+            "viewed": []
+        },
+        {
+            "count": 16,
+            "0": 58.37036890625,
+            "1": 26.7705502625,
+            "object_ids": "3643701,3714989,3650385,3373227,3742514,3745827,3745410,3739997,3659946,3748923,3737840,3070373,3751171,2945377,3740425,3551200",
+            "object_ids_count": 16,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.366177,
+                26.7623567,
+                58.37411,
+                26.7751646
+            ],
+            "distance": 1156,
+            "viewed": []
+        },
+        {
+            "count": 7,
+            "0": 58.35070708571428,
+            "1": 26.725088828571426,
+            "object_ids": "3631530,3736361,3725076,3734390,3743738,3580565,3747725",
+            "object_ids_count": 7,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.346932,
+                26.723279,
+                58.357908,
+                26.7268249
+            ],
+            "distance": 1238,
+            "viewed": []
+        },
+        {
+            "count": 6,
+            "0": 58.37561057906617,
+            "1": 26.761579391510168,
+            "object_ids": "3744976,3706106,3745642,3747379,3750397,3717734",
+            "object_ids_count": 6,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.37307509999999,
+                26.758939249061,
+                58.379768,
+                26.7642478
+            ],
+            "distance": 806,
+            "viewed": []
+        },
+        {
+            "count": 9,
+            "0": 58.36843072920314,
+            "1": 26.717311703522697,
+            "object_ids": "3684738,3254500,3125725,3634671,2749072,3746690,3749818,3750256,3704446",
+            "object_ids_count": 9,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3638842,
+                26.7144742,
+                58.3703572,
+                26.7213563
+            ],
+            "distance": 824,
+            "viewed": []
+        },
+        {
+            "count": 4,
+            "0": 58.37553765,
+            "1": 26.73003285,
+            "object_ids": "3601381,1511073,3751248,3751251",
+            "object_ids_count": 4,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.374854,
+                26.7280536,
+                58.3763607,
+                26.732556
+            ],
+            "distance": 311,
+            "viewed": []
+        },
+        {
+            "count": 6,
+            "0": 58.39112755,
+            "1": 26.724766883333334,
+            "object_ids": "3157199,3724025,3739932,3686979,3719083,3751432",
+            "object_ids_count": 6,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.387559,
+                26.7203051,
+                58.3940239,
+                26.729495
+            ],
+            "distance": 896,
+            "viewed": []
+        },
+        {
+            "0": 58.3569433,
+            "1": 26.7306451,
+            "object_id": 3632595,
+            "new_object": true,
+            "price": "600\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 3,
+            "0": 58.35814833333333,
+            "1": 26.689538933333335,
+            "object_ids": "3628632,3750647,3410255",
+            "object_ids_count": 3,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3568258,
+                26.683628,
+                58.35923,
+                26.6949518
+            ],
+            "distance": 713,
+            "viewed": []
+        },
+        {
+            "0": 58.39697949999999,
+            "1": 26.7317396,
+            "object_id": 3737695,
+            "new_object": false,
+            "price": "750\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 3,
+            "0": 58.40494193333333,
+            "1": 26.74193463333333,
+            "object_ids": "3446800,3748393,3741822",
+            "object_ids_count": 3,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.4034002,
+                26.7380236,
+                58.4075407,
+                26.7454594
+            ],
+            "distance": 632,
+            "viewed": []
+        },
+        {
+            "count": 5,
+            "0": 58.40165069999999,
+            "1": 26.707409300000002,
+            "object_ids": "3751504,3751183,3751031,3751426,3751508",
+            "object_ids_count": 5,
+            "new_object": null,
+            "same_location": true,
+            "area": [
+                58.4016507,
+                26.7074093,
+                58.4016507,
+                26.7074093
+            ],
+            "distance": 0,
+            "viewed": []
+        },
+        {
+            "0": 58.366994,
+            "1": 26.746109,
+            "object_id": 3751507,
+            "new_object": true,
+            "price": "400\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 2,
+            "0": 58.3761967,
+            "1": 26.68654925,
+            "object_ids": "3727451,3745936",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3748714,
+                26.685467,
+                58.377522,
+                26.6876315
+            ],
+            "distance": 321,
+            "viewed": []
+        },
+        {
+            "0": 58.379613,
+            "1": 26.718678,
+            "object_id": 3750934,
+            "new_object": true,
+            "price": "640\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 2,
+            "0": 58.349643699999994,
+            "1": 26.7066677,
+            "object_ids": "3621757,3722641",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.34807619999999,
+                26.7053586,
+                58.3512112,
+                26.7079768
+            ],
+            "distance": 381,
+            "viewed": []
+        },
+        {
+            "count": 5,
+            "0": 58.386995069935196,
+            "1": 26.7299740918554,
+            "object_ids": "3751164,3751250,3747067,3733707,3529644",
+            "object_ids_count": 5,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.3851539,
+                26.72821,
+                58.3882439,
+                26.7328419
+            ],
+            "distance": 437,
+            "viewed": []
+        },
+        {
+            "count": 2,
+            "0": 58.376351,
+            "1": 26.7472235,
+            "object_ids": "3744395,3740461",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.375856,
+                26.746775,
+                58.376846,
+                26.747672
+            ],
+            "distance": 122,
+            "viewed": []
+        },
+        {
+            "count": 2,
+            "0": 58.37289575,
+            "1": 26.7764381,
+            "object_ids": "3623360,3376480",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.371902,
+                26.7757675,
+                58.3738895,
+                26.7771087
+            ],
+            "distance": 234,
+            "viewed": []
+        },
+        {
+            "count": 2,
+            "0": 58.370314500000006,
+            "1": 26.737793,
+            "object_ids": "3750931,3751410",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.37004,
+                26.73703,
+                58.370589,
+                26.738556
+            ],
+            "distance": 108,
+            "viewed": []
+        },
+        {
+            "count": 2,
+            "0": 58.36076609009507,
+            "1": 26.704453650663762,
+            "object_ids": "3572275,3203352",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.359478,
+                26.703016301327523,
+                58.36205418019014,
+                26.705891
+            ],
+            "distance": 332,
+            "viewed": []
+        },
+        {
+            "0": 58.3515114264673,
+            "1": 26.6725831065649,
+            "object_id": 3489110,
+            "new_object": false,
+            "price": "330\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "count": 2,
+            "0": 58.3582015,
+            "1": 26.72395125,
+            "object_ids": "3741986,3201110",
+            "object_ids_count": 2,
+            "new_object": null,
+            "same_location": false,
+            "area": [
+                58.357296,
+                26.72378,
+                58.359107,
+                26.7241225
+            ],
+            "distance": 202,
+            "viewed": []
+        },
+        {
+            "0": 58.3807166,
+            "1": 26.7800765,
+            "object_id": 3749283,
+            "new_object": false,
+            "price": "980\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.36426600000001,
+            "1": 26.6722304,
+            "object_id": 3507058,
+            "new_object": false,
+            "price": "300\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.368205,
+            "1": 26.75826,
+            "object_id": 3674513,
+            "new_object": false,
+            "price": "600\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.365799,
+            "1": 26.725546,
+            "object_id": 3751415,
+            "new_object": true,
+            "price": "220\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.3822458,
+            "1": 26.6951184,
+            "object_id": 3409438,
+            "new_object": true,
+            "price": "600\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.3627713,
+            "1": 26.7314839,
+            "object_id": 3523705,
+            "new_object": true,
+            "price": "420\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.370434,
+            "1": 26.726914,
+            "object_id": 3707219,
+            "new_object": true,
+            "price": "790\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.39040790000001,
+            "1": 26.7268667,
+            "object_id": 3726593,
+            "new_object": true,
+            "price": "550\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.3506776,
+            "1": 26.6947615,
+            "object_id": 3726853,
+            "new_object": false,
+            "price": "500\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.38335273679046,
+            "1": 26.71324610710144,
+            "object_id": 3751402,
+            "new_object": true,
+            "price": "450\u20ac",
+            "viewed": [
+                null
+            ]
+        },
+        {
+            "0": 58.381733,
+            "1": 26.704333,
+            "object_id": 3744737,
+            "new_object": false,
+            "price": "850\u20ac",
+            "viewed": [
+                null
+            ]
+        }
+    ],
+    "objectUrl": "\/uurida-tartu-linnaaarses-rahulikus-ja-kiiresti-are-3734970.html",
+    "m2price": 16,
+    "topContact": "Tartu, Tartu linn, R\u00e4nilinn, Laseri tn 6a",
+    "topContactReverse": "Laseri tn 6a, R\u00e4nilinn, Tartu linn, Tartu",
+    "objectMeta": [
+        "1 tuba",
+        "30&nbsp;m\u00b2",
+        "Korrus 2\/4"
+    ],
+    "objComposedInfo": [
+        "Laseri tn 6a",
+        "Tartu linn",
+        "30&nbsp;m\u00b2",
+        "Tube 1"
+    ],
+    "campaignOffer": "",
+    "objectType": 1,
+    "showObjects": [
+        {
+            "object_id": 3158572,
+            "coordinate": "(58.3802128,26.7246779)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-26 14:26:00.425403",
+            "new_object": 1,
+            "price_eur": 460,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3158572\"\n        data-object-url=\"\/anda-uurile-suureparase-asukohaga-2-toaline-korter-3158572.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec72c621\" href=\"\/anda-uurile-suureparase-asukohaga-2-toaline-korter-3158572.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/6374\/62946374.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec7ed5d2\" onclick=\"KV.favorite(3158572, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec772323\" href=\"\/object\/images\/3158572\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    3                <\/a>\n                        <a data-key=\"692ec7e1ea5\" href=\"\/anda-uurile-suureparase-asukohaga-2-toaline-korter-3158572.html\" data-skeleton=\"object\">\n                Vabaduse pst 2, Kesklinn, Tartu linn, Tartu            <\/a>\n                                        <span class=\"new-object\">Uus<\/span>\n                    <\/h2>\n\n        <div class=\"price\">460\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Suurep\u00e4rase asukohaga korter kesklinnas            <\/p>\n        \n        <p class=\"object-excerpt\">\n            3. korrus, heas korras, parkimisv\u00f5imalus puudub, parkett, pakettaknad, m\u00f6\u00f6bli v\u00f5imalus, toad eraldi, TV        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3750691,
+            "coordinate": "(58.3860798,26.7176257)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": null,
+            "viewed": null,
+            "date_activated": "2025-05-23 21:05:48.56906",
+            "new_object": 0,
+            "price_eur": 1000,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3750691\"\n        data-object-url=\"\/uus-pakkumine-turul-uurile-anda-vaga-heas-korras-r-3750691.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec1f4ff1\" href=\"\/uus-pakkumine-turul-uurile-anda-vaga-heas-korras-r-3750691.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/0039\/128470039.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec8751f2\" onclick=\"KV.favorite(3750691, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ecc18943\" href=\"\/object\/images\/3750691\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    2                <\/a>\n                        <a data-key=\"692ec907c25\" href=\"\/uus-pakkumine-turul-uurile-anda-vaga-heas-korras-r-3750691.html\" data-skeleton=\"object\">\n                Oa 10b, Supilinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">1\u00a0000\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Ridaelamu Kesklinna ja Supilinna piiril Botaanikaaia k\u00f5rval!            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/2, heas korras, keraamiline pliit, saun, du\u0161\u0161, wc ja vannituba eraldi, keskk\u00fcte, k\u00f6\u00f6k, avatud k\u00f6\u00f6k, k\u00fclmik, elekter, tsentraalne vesi, \u00fchistransport, kinnine hoov, uus elektrijuhtmestik, planeering l\u00e4bi mitme korruse, toad eraldi, seinakapp, panipaik, terrass, pesumasin, ventilatsioon, kamin, garderoob, parkett, m\u00f6\u00f6bel, TV, parkimine tasuta, aiaga \u00fcmbritsetud, Emaj\u00f5gi j\u00f5gi        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3291511,
+            "coordinate": "(58.3486388,26.6828305)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-20 15:01:23.537838",
+            "new_object": 0,
+            "price_eur": 560,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3291511\"\n        data-object-url=\"\/asukoht-ja-piirkond-kvartsi-11-kortermaja-asub-ran-3291511.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ecaa27b1\" href=\"\/asukoht-ja-piirkond-kvartsi-11-kortermaja-asub-ran-3291511.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/9681\/67009681.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec5a8692\" onclick=\"KV.favorite(3291511, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec35bae3\" href=\"\/object\/images\/3291511\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692eca1a605\" href=\"\/asukoht-ja-piirkond-kvartsi-11-kortermaja-asub-ran-3291511.html\" data-skeleton=\"object\">\n                Kvartsi, R\u00e4nilinn, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">560\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Hubane kahetoaline sisustatud korter            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/4, Korteriomand, kivimaja, ehitusaasta 2020, uus, elektripliit, du\u0161\u0161, uus torustik, keskk\u00fcte, p\u00f5randak\u00fcte, r\u00f5du 7.3&nbsp;m\u00b2, avatud k\u00f6\u00f6k, k\u00fclmik, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, panipaik, lift, parkett, pakettaknad, m\u00f6\u00f6bel, toad eraldi, uus elektrijuhtmestik, parkimine tasuta, trepikoda lukus, \u00fcmbruses eramud ja korterelamud, naabrid \u00fcmberringi        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3740344,
+            "coordinate": "(58.388981,26.722687)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-16 20:52:10.670431",
+            "new_object": 0,
+            "price_eur": 300,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3740344\"\n        data-object-url=\"\/tartumaa-tartu-tartu-linn-ulejoe-ujula-tn-1-3-tuba-3740344.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec94de31\" href=\"\/tartumaa-tartu-tartu-linn-ulejoe-ujula-tn-1-3-tuba-3740344.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/1023\/127871023.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692eca27442\" onclick=\"KV.favorite(3740344, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec4586c3\" href=\"\/object\/images\/3740344\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecfd5d55\" href=\"\/tartumaa-tartu-tartu-linn-ulejoe-ujula-tn-1-3-tuba-3740344.html\" data-skeleton=\"object\">\n                Ujula tn 1, \u00dclej\u00f5e, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">300\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 3\/4, Korteriomand, kivimaja, ehitusaasta 1964, keskmises seisukorras, elektripliit, du\u0161\u0161, keskk\u00fcte, k\u00fclmik, Internet, parkimine tasuta, m\u00f6\u00f6bel, m\u00f6\u00f6bli v\u00f5imalus, TV, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, turvauks, trepikoda lukus, teed heas seisukorras, Emaj\u00f5gi j\u00f5gi 300 m, \u00fcmbruses korterelamud, naabrid \u00fcmberringi, linnas        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3252537,
+            "coordinate": "(58.3746674,26.7233433)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-20 09:18:00.500908",
+            "new_object": 0,
+            "price_eur": 750,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3252537\"\n        data-object-url=\"\/uurile-anda-avatud-koogiga-3toaline-korter-korter-3252537.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec63f571\" href=\"\/uurile-anda-avatud-koogiga-3toaline-korter-korter-3252537.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/8818\/109268818.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n            <span class=\"label label-important\"><i class=\"fal fa-calendar\"><\/i>Kliendip\u00e4ev: E 02.06 10:00-17:00<\/span>        <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ece256b2\" onclick=\"KV.favorite(3252537, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec44ddc3\" href=\"\/object\/images\/3252537\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692eca3d1d5\" href=\"\/uurile-anda-avatud-koogiga-3toaline-korter-korter-3252537.html\" data-skeleton=\"object\">\n                Riia 9, Kesklinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">750\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 3\/4, Korteriomand, heas korras, induktsioonpliit, du\u0161\u0161, keskk\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, k\u00f6\u00f6gim\u00f6\u00f6bel, parkett, pakettaknad, m\u00f6\u00f6bel, pesumasin, parkimine tasuta, trepikoda lukus        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 2005285,
+            "coordinate": "(58.3736173,26.6964995)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-23 16:26:53.991355",
+            "new_object": 0,
+            "price_eur": 320,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"2005285\"\n        data-object-url=\"\/uurile-anda-renoveeritud-1toaline-kombineeritud-ku-2005285.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec5e40f1\" href=\"\/uurile-anda-renoveeritud-1toaline-kombineeritud-ku-2005285.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/9656\/33339656.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec00aae2\" onclick=\"KV.favorite(2005285, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec07ca43\" href=\"\/object\/images\/2005285\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec72b3f5\" href=\"\/uurile-anda-renoveeritud-1toaline-kombineeritud-ku-2005285.html\" data-skeleton=\"object\">\n                N.Lunini 17, Maarjam\u00f5isa, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">320\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Sisustatud renoveeritud korter otse omanikult            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/2, ehitusaasta 1920, renoveeritud, keraamiline pliit, boiler, du\u0161\u0161, uus torustik, elektrik\u00fcte, ahjuk\u00fcte, k\u00fclmik, k\u00f6\u00f6gim\u00f6\u00f6bel, pakettaknad, m\u00f6\u00f6bel, k\u00f5rged laed, uus elektrijuhtmestik, panipaik, pesumasin, trepikoda lukus        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3735937,
+            "coordinate": "(58.39445190000001,26.7512645)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-18 15:41:46.292892",
+            "new_object": 0,
+            "price_eur": 580,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3735937\"\n        data-object-url=\"\/uurile-anda-2toaline-korter-suure-79m2-roduga-asja-3735937.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec994fe1\" href=\"\/uurile-anda-2toaline-korter-suure-79m2-roduga-asja-3735937.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/4758\/127604758.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec872aa2\" onclick=\"KV.favorite(3735937, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec4bc7b3\" href=\"\/object\/images\/3735937\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692eca25245\" href=\"\/uurile-anda-2toaline-korter-suure-79m2-roduga-asja-3735937.html\" data-skeleton=\"object\">\n                Raadiraja tn 10, Raadi-Kruusam\u00e4e, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">580\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Uus 2-toaline korter suure r\u00f5duga Raadil            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/4, ehitusaasta 2025, uus, elektripliit, du\u0161\u0161, p\u00f5randak\u00fcte, r\u00f5du 7.9&nbsp;m\u00b2, avatud k\u00f6\u00f6k, k\u00fclmik, panipaik, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, parkett, lift, r\u00f5du kinnine, seinakapp, m\u00f6\u00f6bel, trepikoda lukus        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3726527,
+            "coordinate": "(58.377245,26.710027)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-03-03 19:24:25.936114",
+            "new_object": 0,
+            "price_eur": 525,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3726527\"\n        data-object-url=\"\/tagatisrahata-uuritakse-valja-rendin-ee-platvormi-3726527.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692eca67621\" href=\"\/tagatisrahata-uuritakse-valja-rendin-ee-platvormi-3726527.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5524\/127095524.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec513d42\" onclick=\"KV.favorite(3726527, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec1d6873\" href=\"\/object\/images\/3726527\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec6f93d5\" href=\"\/tagatisrahata-uuritakse-valja-rendin-ee-platvormi-3726527.html\" data-skeleton=\"object\">\n                Kastani tn 31-1, Vaksali, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">525\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Ahik\u00fcttega korter T\u00e4htveres!            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/3, Korteriomand, puitmaja, ehitusaasta 1902, heas korras, m\u00f6\u00f6bel, m\u00f6\u00f6bli v\u00f5imalus, eraldi sissep\u00e4\u00e4s, k\u00f5rged laed, uus elektrijuhtmestik, seinakapp, panipaik        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3740971,
+            "coordinate": "(58.381464,26.753072)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-20 09:41:12.723132",
+            "new_object": 0,
+            "price_eur": 600,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3740971\"\n        data-object-url=\"\/anda-uurile-loft-tuupi-valguskullane-avar-korter-j-3740971.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec39eca1\" href=\"\/anda-uurile-loft-tuupi-valguskullane-avar-korter-j-3740971.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5271\/127915271.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecb65132\" onclick=\"KV.favorite(3740971, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692eceb2ad3\" href=\"\/object\/images\/3740971\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692eceb1125\" href=\"\/anda-uurile-loft-tuupi-valguskullane-avar-korter-j-3740971.html\" data-skeleton=\"object\">\n                Jaama tn 76, Jaamam\u00f5isa, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">600\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Anda \u00fc\u00fcrile loft t\u00fc\u00fcpi 2 toaline korter            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/2, uus, induktsioonpliit, uus torustik, du\u0161\u0161, keskk\u00fcte, r\u00f5du 44&nbsp;m\u00b2, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, uus elektrijuhtmestik, seinakapp, planeering l\u00e4bi mitme korruse, TV, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, terrass, m\u00f6\u00f6bel, pakettaknad, k\u00f5rged laed, parkett, trepikoda lukus, videovalve, turvauks, veekogu 300 m        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3472280,
+            "coordinate": "(58.3709811190716,26.7024475728436)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-27 23:29:03.065067",
+            "new_object": 0,
+            "price_eur": 420,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3472280\"\n        data-object-url=\"\/korter-koosneb-kooktoast-ja-wcdussiruumist-korter-3472280.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec294611\" href=\"\/korter-koosneb-kooktoast-ja-wcdussiruumist-korter-3472280.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/0227\/105530227.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec4bbd62\" onclick=\"KV.favorite(3472280, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ecb02ec3\" href=\"\/object\/images\/3472280\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecd76725\" href=\"\/korter-koosneb-kooktoast-ja-wcdussiruumist-korter-3472280.html\" data-skeleton=\"object\">\n                Tasuja tn, Maarjam\u00f5isa, Tammelinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">420\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                V\u00e4rskelt sisustatud korter uues majas            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/2, uus, induktsioonpliit, du\u0161\u0161, \u00d5hk-vesisoojuspump, keskk\u00fcte, p\u00f5randak\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, parkimine tasuta, kinnine hoov, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, turvauks, trepikoda lukus, videovalve        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3170315,
+            "coordinate": "(58.3665395,26.7331355)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-22 20:26:46.075104",
+            "new_object": 0,
+            "price_eur": 360,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3170315\"\n        data-object-url=\"\/korter-vaba-lemmikloomadele-see-korter-kahjuks-ela-3170315.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec8e6e81\" href=\"\/korter-vaba-lemmikloomadele-see-korter-kahjuks-ela-3170315.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/3075\/107863075.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecc77792\" onclick=\"KV.favorite(3170315, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692eca31a03\" href=\"\/object\/images\/3170315\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec0b60a5\" href=\"\/korter-vaba-lemmikloomadele-see-korter-kahjuks-ela-3170315.html\" data-skeleton=\"object\">\n                Salme 24, Karlova, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">360\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                RENOVEERITUD KORTER SUUREP\u00c4RASE ASUKOHAGA!            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/2, Korteriomand, puitmaja, renoveeritud, keraamiline pliit, boiler, uus torustik, du\u0161\u0161, \u00f5hksoojuspump, p\u00f5randak\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, seinakapp, panipaik, parkimine tasuta, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, kinnine hoov, TV, m\u00f6\u00f6bel, konditsioneer, pakettaknad, uus elektrijuhtmestik, parkett        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3047651,
+            "coordinate": "(58.3587536265273,26.7361296045591)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-01-22 16:42:21.566748",
+            "new_object": 0,
+            "price_eur": 350,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3047651\"\n        data-object-url=\"\/korter-on-vaba-karlovaropka-piiril-teguri-tanaval-3047651.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec75d9a1\" href=\"\/korter-on-vaba-karlovaropka-piiril-teguri-tanaval-3047651.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/9590\/121049590.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec478882\" onclick=\"KV.favorite(3047651, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ecb5b723\" href=\"\/object\/images\/3047651\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec5bde45\" href=\"\/korter-on-vaba-karlovaropka-piiril-teguri-tanaval-3047651.html\" data-skeleton=\"object\">\n                Teguri, Karlova, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">350\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                OTSE OMANIKULT ,TUDENGITELE, T\u00d6\u00d6TAVATELE NOORTELE            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/2, Kinnistu, kivimaja, heas korras, elektripliit, boiler, du\u0161\u0161, uus torustik, p\u00f5randak\u00fcte, \u00f5hksoojuspump, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, konditsioneer, parkimine tasuta, parkett, pakettaknad, m\u00f6\u00f6bel, toad eraldi, uus elektrijuhtmestik, seinakapp, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, trepikoda lukus, naabrivalve        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3744900,
+            "coordinate": "(58.3766827,26.7518445)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-04 06:41:33.585951",
+            "new_object": 0,
+            "price_eur": 320,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3744900\"\n        data-object-url=\"\/pikemaks-ajaks-uurile-anda-1toaline-vaikne-valgusk-3744900.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec7eac61\" href=\"\/pikemaks-ajaks-uurile-anda-1toaline-vaikne-valgusk-3744900.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5672\/128145672.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec4bd382\" onclick=\"KV.favorite(3744900, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec4aac83\" href=\"\/object\/images\/3744900\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecef2005\" href=\"\/pikemaks-ajaks-uurile-anda-1toaline-vaikne-valgusk-3744900.html\" data-skeleton=\"object\">\n                S\u00f5pruse pst. 8, Annelinn, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">320\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/5, ehitusaasta 1973, heas korras, gaasipliit, vann, wc ja vannituba eraldi, keskk\u00fcte, k\u00fclmik, Internet, parkimine tasuta, pakettaknad, m\u00f6\u00f6bel, seinakapp, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, turvauks, trepikoda lukus, teed heas seisukorras        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3395635,
+            "coordinate": "(58.37198396497554,26.784099340438843)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-28 17:53:48.402014",
+            "new_object": 0,
+            "price_eur": 525,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3395635\"\n        data-object-url=\"\/uurile-anda-renoveeritud-3toaline-korter-korter-on-3395635.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ecbe7921\" href=\"\/uurile-anda-renoveeritud-3toaline-korter-korter-on-3395635.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/0394\/128050394.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecc32fa2\" onclick=\"KV.favorite(3395635, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ecdc8ec3\" href=\"\/object\/images\/3395635\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec7d0f25\" href=\"\/uurile-anda-renoveeritud-3toaline-korter-korter-on-3395635.html\" data-skeleton=\"object\">\n                Aiandi tee 3, Lohkva k\u00fcla, Jaamam\u00f5isa, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">525\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                RENOVEERITUD \u00dc\u00dcRIKODU ILMA TAGATISRAHATA!            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 3\/5, Korteriomand, paneelmaja, ehitusaasta 1980, renoveeritud, induktsioonpliit, k\u00f6\u00f6k 9&nbsp;m\u00b2, du\u0161\u0161, vann, uus torustik, keskk\u00fcte, r\u00f5du 2.8&nbsp;m\u00b2, k\u00fclmik, Internet, telefon, kaabelTV, k\u00f6\u00f6gim\u00f6\u00f6bel, parkett, pakettaknad, m\u00f6\u00f6bel, toad eraldi, TV, uus elektrijuhtmestik, panipaik, parkimine tasuta, pesumasin, trepikoda lukus, turvauks, naabrivalve, \u00fcmbruses korterelamud, naabrid \u00fchel pool, linnas, teed heas seisukorras        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3459603,
+            "coordinate": "(58.3709749,26.6812561)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-01-19 17:52:27.096702",
+            "new_object": 0,
+            "price_eur": 210,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3459603\"\n        data-object-url=\"\/uurile-anda-eraldi-vaga-avarad-toad-eliitrajoonis-3459603.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ece2a711\" href=\"\/uurile-anda-eraldi-vaga-avarad-toad-eliitrajoonis-3459603.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5498\/126375498.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ece6fa02\" onclick=\"KV.favorite(3459603, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec2ba533\" href=\"\/object\/images\/3459603\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692eca17db5\" href=\"\/uurile-anda-eraldi-vaga-avarad-toad-eliitrajoonis-3459603.html\" data-skeleton=\"object\">\n                Nisu tn 35, Veeriku, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">210\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/2, san. remont tehtud, du\u0161\u0161, k\u00fclmik, Internet, panipaik, terrass, pesumasin, m\u00f6\u00f6bel, kombineeritud k\u00fcte, pakettaknad        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3460287,
+            "coordinate": "(58.3738366,26.7199492)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-01-27 11:31:00.472441",
+            "new_object": 0,
+            "price_eur": 370,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3460287\"\n        data-object-url=\"\/uurile-anda-2022-a-suvel-valminud-majas-hubane-uue-3460287.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec280e91\" href=\"\/uurile-anda-2022-a-suvel-valminud-majas-hubane-uue-3460287.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/1885\/110241885.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecc9e972\" onclick=\"KV.favorite(3460287, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec01fad3\" href=\"\/object\/images\/3460287\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecc3c635\" href=\"\/uurile-anda-2022-a-suvel-valminud-majas-hubane-uue-3460287.html\" data-skeleton=\"object\">\n                Pepleri tn 34, S\u00dcDALINN, Kesklinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">370\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note color-black-important\">\n                SISUSTATUD JA SUUREP\u00c4RASE ASUKOHAGA KORTER!            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 3\/5, Korteriomand, ehitusaasta 2022, uus, elektripliit, du\u0161\u0161, uus torustik, keskk\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, kaabelTV, k\u00f6\u00f6gim\u00f6\u00f6bel, lift, parkett, pakettaknad, m\u00f6\u00f6bel, uus elektrijuhtmestik, seinakapp, pesumasin, naabrivalve, trepikoda lukus, asub keskuses, teed heas seisukorras, naabrid k\u00f5rval        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3739813,
+            "coordinate": "(58.38084659999999,26.7354951)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-04-22 19:00:29.747521",
+            "new_object": 0,
+            "price_eur": 780,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3739813\"\n        data-object-url=\"\/valguskullane-ja-avar-3toaline-korter-uues-majas-t-3739813.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec776941\" href=\"\/valguskullane-ja-avar-3toaline-korter-uues-majas-t-3739813.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5015\/127935015.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n<span class=\"overlay sold\">BRONEERITUD<\/span>                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecd2b392\" onclick=\"KV.favorite(3739813, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ecf651f3\" href=\"\/object\/images\/3739813\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec0edb85\" href=\"\/valguskullane-ja-avar-3toaline-korter-uues-majas-t-3739813.html\" data-skeleton=\"object\">\n                Fortuuna 26, \u00dclej\u00f5e, Tartu linn, Tartu            <\/a>\n                            <span class=\"font-75\">(Broneeritud)<\/span>\n                                <\/h2>\n\n        <div class=\"price\">780\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 4\/5, kivimaja, ehitusaasta 2024, uus, du\u0161\u0161, p\u00f5randak\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, m\u00f6\u00f6bli v\u00f5imalus, toad eraldi, terrass, uus elektrijuhtmestik, seinakapp, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, parkimine tasuta, lift, parkett, pakettaknad, trepikoda lukus, j\u00f5gi 50 m        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3750728,
+            "coordinate": "(58.3778792,26.7200907)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-24 09:44:29.815677",
+            "new_object": 0,
+            "price_eur": 850,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3750728\"\n        data-object-url=\"\/alates-septembrist-vabaneb-ja-otsib-uut-koduhoidva-3750728.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ecd2df71\" href=\"\/alates-septembrist-vabaneb-ja-otsib-uut-koduhoidva-3750728.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/5641\/128475641.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec798882\" onclick=\"KV.favorite(3750728, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec876603\" href=\"\/object\/images\/3750728\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecdbd725\" href=\"\/alates-septembrist-vabaneb-ja-otsib-uut-koduhoidva-3750728.html\" data-skeleton=\"object\">\n                Vallikraavi 10-19, Kesklinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">850\u00a0\u20ac<\/div>\n\n        \n        <p class=\"object-excerpt\">\n            Korrus 1\/3, ehitusaasta 2023, uus        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3363174,
+            "coordinate": "(58.3484877,26.7400302)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-01-02 16:39:03.756081",
+            "new_object": 0,
+            "price_eur": 560,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3363174\"\n        data-object-url=\"\/uurile-anda-mobleeritud-3-toaline-korter-80m2-560e-3363174.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec216b61\" href=\"\/uurile-anda-mobleeritud-3-toaline-korter-80m2-560e-3363174.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/4570\/117994570.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ec0d5e02\" onclick=\"KV.favorite(3363174, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec55ef13\" href=\"\/object\/images\/3363174\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ecc57725\" href=\"\/uurile-anda-mobleeritud-3-toaline-korter-80m2-560e-3363174.html\" data-skeleton=\"object\">\n                Turu tn 45b, Ropka t\u00f6\u00f6stusrajoon, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">560\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Sisustatud 3 toaline korter Turu tn. 45b, Tartus            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 3\/3, Kinnistu, paneelmaja, ehitusaasta 2006, heas korras, induktsioon pliit, boiler, du\u0161\u0161, uus torustik, keskk\u00fcte, avatud k\u00f6\u00f6k, Internet, telefon, kaabelTV, pesumasin, parkett, pakettaknad, toad eraldi, k\u00f5rged laed, uus elektrijuhtmestik, k\u00f6\u00f6gim\u00f6\u00f6bel, trepikoda lukus, teed heas seisukorras        <\/p>\n    <\/div>\n<\/article>\n"
+        },
+        {
+            "object_id": 3734970,
+            "coordinate": "(58.350761,26.680864)",
+            "object_type": 1,
+            "deal_type": 3,
+            "building_type": 0,
+            "viewed": null,
+            "date_activated": "2025-05-22 14:23:24.844006",
+            "new_object": 0,
+            "price_eur": 480,
+            "new_price_eur": null,
+            "html": "<article\n        class=\"quick object-type-apartment\"\n        data-object-id=\"3734970\"\n        data-object-url=\"\/uurida-tartu-linnaaarses-rahulikus-ja-kiiresti-are-3734970.html\"\n>\n    <div class=\"media\">\n        <div class=\"relative\">\n            <div class=\"images\">\n                                    <a data-key=\"692ec6544c1\" href=\"\/uurida-tartu-linnaaarses-rahulikus-ja-kiiresti-are-3734970.html\" target=\"_blank\">\n                        <img width=\"1\" height=\"1\" data-src=\"https:\/\/kv.img-bcg.eu\/image\/object\/40\/2755\/127552755.jpg\" alt=\"\">\n                    <\/a>\n                            <\/div>\n\n            \n\n                    <\/div>\n    <\/div>\n    <div class=\"actions\">\n        <a data-key=\"692ecf043d2\" onclick=\"KV.favorite(3734970, 'object')\" title=\"Lisa lemmikuks\"><i class=\"fal fa-heart\"><\/i><\/a>\n                    <a data-key=\"692ec54af73\" href=\"\/object\/images\/3734970\" data-target=\"gallery\" title=\"Galerii\"><i class=\"fal fa-camera\"><\/i><\/a>\n            <\/div>\n\n\n    <div class=\"details\">\n        <h2>\n                            <a data-key=\"692ec2706e4\" class=\"object-promoted\" title=\"[b]Tasemeteenus[\/b]\\nTasemeteenus muudab Sinu kuulutuse rohkem n\u00e4htavamaks t\u00f5stes selle  KV.EE otsingutes ettepoole.\">\n                    <i class=\"fas fa-star\"><\/i>\n                    1                <\/a>\n                        <a data-key=\"692ec55d4e5\" href=\"\/uurida-tartu-linnaaarses-rahulikus-ja-kiiresti-are-3734970.html\" data-skeleton=\"object\">\n                Laseri tn 6a, R\u00e4nilinn, Tartu linn, Tartu            <\/a>\n                                <\/h2>\n\n        <div class=\"price\">480\u00a0\u20ac<\/div>\n\n        \n            <p class=\"object-important-note \">\n                Hubane 1-toaline korter            <\/p>\n        \n        <p class=\"object-excerpt\">\n            Korrus 2\/4, ehitusaasta 2018, heas korras, elektripliit, vann, keskk\u00fcte, r\u00f5du 4.6&nbsp;m\u00b2, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, telefon, kaabelTV, pakettaknad, parkimine tasuta, k\u00f6\u00f6gim\u00f6\u00f6bel, pesumasin, lift, m\u00f6\u00f6bel, terrass, panipaik, trepikoda lukus, \u00fcmbruses korterelamud, teed heas seisukorras        <\/p>\n    <\/div>\n<\/article>\n"
+        }
+    ],
+    "objectsKey": "25028acc77e6b0705571120eb5413f00",
+    "tags": "<a>Korterite \u00fc\u00fcr<\/a><a title=\"Eemalda valik\"  data-title-position=\"right\" data-type=\"select\" data-id=\"county\" >Tartumaa<i class=\"fas fa-xmark\"><\/i><\/a><a title=\"Eemalda valik\"  data-title-position=\"right\" data-type=\"select\" data-id=\"parish\" >Tartu<i class=\"fas fa-xmark\"><\/i><\/a>",
+    "rssLink": "\/api\/search\/map&deal_type=2&county=12&parish=1063&cluster=true&zoom=12.310958924656257&nelat=58.41960338309929&nelng=26.803512094672676&swlat=58.33238981388714&swlng=26.664581359367745&orderby=ob&rss=1",
+    "currentTag": 3.48,
+    "url": "\/search\/map&deal_type=2&county=12&parish=1063&cluster=true&zoom=12.310958924656257&nelat=58.41960338309929&nelng=26.803512094672676&swlat=58.33238981388714&swlng=26.664581359367745&orderby=ob",
+    "user_id": 0
+}
