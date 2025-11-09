@@ -1,0 +1,43 @@
+STARTING NUMBER OF RENTAL PROPERTIES - 1809. STARTING NUMBER OF ATTRIBUTES 19.
+Scrape gave a .json file with a total of 19 different data columns. Decided to remove all columns that had over 20% missing data. Those columns were:
+
+(Column name and missing count percent)
+18	Üürida korter (Broneeritud)	94.91
+11	Korruseid	94.36
+19	Registriosa number	91.87
+15	Ettemaks	77.72
+16	Kulud suvel/talvel	65.12
+17	Katastrinumber	35.38
+14	Omandivorm	30.40
+12	Magamistube	28.36
+13	Energiamärgis	27.81
+
+Remained 10 columns:
+
+id
+url
+longitude
+latitude
+price
+Üldpind
+Tube
+Seisukord
+Üürida korter
+Korrus/Korruseid
+Ehitusaasta
+
+
+While cleaning the dataset:
+Removed excessive/trailing whitespaces
+Replaced "?" with np.nan
+Extracted price to be number from format - '450 € 6.79 €/m²'
+Extracted square meters from same format
+Differentiated "on which floor" and "how many floors a building has" into two separate attributes
+Converted different numbers to numeric
+
+
+Removed rental properties that didn't have all of the critical fields:
+ "price, area_sq, rooms"
+
+FINAL NUMBER OF RENTAL PROPERTIES 1793. FINAL NUMBER OF ATTRIBUTES 11
+(Made the column korrus/korruseid into two separate ones)
