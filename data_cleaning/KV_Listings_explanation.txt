@@ -1,33 +1,11 @@
-STARTING NUMBER OF RENTAL PROPERTIES - 1809. STARTING NUMBER OF ATTRIBUTES 19.
-Scrape gave a .json file with a total of 19 different data columns. Decided to remove all columns that had over 20% missing data. Those columns were:
+STARTING SCRAPE GOT 20 COLUMNS - 
+'id', 'url', 'price', 'latitude', 'longitude', 'Üürida korter', 'Tube', 'Üldpind', 'Korrus/Korruseid', 'Ehitusaasta', 'Seisukord', 'Korruseid', 'Magamistube', 'Energiamärgis', 'Omandivorm', 'Ettemaks', 'Kulud suvel/talvel', 'Katastrinumber', 'Üürida korter (Broneeritud)', 'Registriosa number'
 
-(Column name and missing count percent)
-18	Üürida korter (Broneeritud)	94.91
-11	Korruseid	94.36
-19	Registriosa number	91.87
-15	Ettemaks	77.72
-16	Kulud suvel/talvel	65.12
-17	Katastrinumber	35.38
-14	Omandivorm	30.40
-12	Magamistube	28.36
-13	Energiamärgis	27.81
-
-Remained 10 columns:
-
-id
-url
-longitude
-latitude
-price
-Üldpind
-Tube
-Seisukord
-Üürida korter
-Korrus/Korruseid
-Ehitusaasta
+Tallinn data had - 1359 records
+Tartu data had - 450 records
 
 
-While cleaning the dataset:
+Dataset cleaning for both cities:
 Removed excessive/trailing whitespaces
 Replaced "?" with np.nan
 Extracted price to be number from format - '450 € 6.79 €/m²'
@@ -39,5 +17,12 @@ Converted different numbers to numeric
 Removed rental properties that didn't have all of the critical fields:
  "price, area_sq, rooms"
 
-FINAL NUMBER OF RENTAL PROPERTIES 1793. FINAL NUMBER OF ATTRIBUTES 11
-(Made the column korrus/korruseid into two separate ones)
+Removed all columns from Tartu and Tallinn that had over 20% missing data rate
+
+Tallinn - final number of rental properties 1345.
+
+Tartu - finaal number of rental properties 448.
+
+For both cities the 10 final columns were
+
+'id', 'url', 'latitude', 'longitude', 'condition', 'price', 'area_sqm', 'floor', 'total_floors', 'rooms'
