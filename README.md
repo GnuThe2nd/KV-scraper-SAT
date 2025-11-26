@@ -24,7 +24,7 @@ Our data was scraped from KV.ee, the most popular real estate website in Estonia
 
 1. Go to KV.ee.
 2. For type, choose rent (_Üür_), Then choose any city youd like to get data on.
-   ![rightvalues](README_scrape_guide_1.png)
+   ![rightvalues](Images/Readme_images/README_scrape_guide_1.png)
 
 ### Installing
 
