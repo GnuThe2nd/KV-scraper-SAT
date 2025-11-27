@@ -1,49 +1,112 @@
-# KV scraper SAT
+# Real Estate Pricerange Predictor
 
-Housing prices analysis
-Daniel Henri Trump
+This project aims to set up a algorithm, that, when given a city's real estate data, can predict priceranges in any given xy coordinate within the citys boarders. This project was created in for a Tartu University CS class.
 
-This project was made by putting multiple different projects from different courses together and adding some new methods so there might be some inconsistencies.
+- [Real Estate Pricerange Predictor](Real-Estate-Pricerange-Predictor)
+  - [Getting Started](Getting-Started)
+    - [Scraping Data Example](Scraping-Data-Example)
+      - [Manual Scraping](Manual-Scraping)
+    - [Prerequisites](Prerequisites)
 
-Data used:
-OpenStreetMap roads
-OpenStreetMap amenities
-Kv.ee scraped rent prices (all of the data is included in the .zip at their different sates from json to cleaned .csv)
+## Getting Started
 
-Step-by-step guide
+This project uses data gathered from KV.ee specifically, but if youre willing to do your own data cleaning, other websites can be used as well.
 
-1. Make sure you have playwright
-2. Find .json data from kv.ee
-3. Copy the data to a new .json file
-4. Run Geopython environment
-5. Run id_valjavote.ipynp script to get all object ids in a area as a list
-6. Run environment where playwright is installed
-7. Run ID_scape.py from powershell (this code will scrape all the data from the site from all of the defined object IDs and output it as a .json)
-8. Run Geopython environment
-9. Next run Andmete_korrastus.ipynp to make it into a readable csv
-10. Next run vorgustikuanaluus.ipynp to analize the data and get some results
+### Scarping Data Example
 
-How to find .json data form the website.
+Our data was scraped from KV.ee, the most popular real estate website in Estonia. The manual guide down below will work for all citys: the way the website is built, makes it hard to scrap data from smaller citys, since there are so many and each has their own id, which is very timeconsuming to gather up.
 
-1. Go to kv.ee
-2. Select what type of housing you want to find (I chose renting)
-3. Select in what area you want to find the housing (I chose Tartu)
-4. Go to the map section of the website (otsi kaardilt)
-5. Inspect element
-6. Network tab
-7. Fetch/XHR tab
-8. Respond tab
-9. Click the last query
-10. Under the response tab all the text should be copied to a new .json file
+Note: We did try automating the scraping process with a script, but after some concideration (and some time fucking around and finding out) we decided to scrap the scrapper (see what I did there), since the websites api is blocking our requests for the data, thus making the script unethical use of brute force.
 
-How to find your PHPSESSID
+#### Manual Scraping
 
-1. Go to kv.ee
-2. Select what type of housing you want to find (I chose renting)
-3. Select in what area you want to find the housing (I chose Tartu)
-4. Go to the map section of the website (otsi kaardilt)
-5. Inspect element
-6. Network tab
-7. Cookies tab
-8. Click the last query
-9. Copy PHPSESSID to the ID_scrape.py to the value field
+1. Go to KV.ee.
+2. For type, choose rent (_Üür_), Then choose any city youd like to get data on.
+   ![rightvalues](Images/Readme_images/README_scrape_guide_1.png)
+3. Open "Search from the map" (_Otsi kaardilt_) and inspect the element.
+   ![inspectelement](Images/Readme_images/README_scrape_guide_2.png)
+4. From there, choose Network and Fetch/XHR. There you should see a line along the lines of "map&deal_type=2...". If there are multiple of them, choose the lowest, as it should be the latest. Click on it and then choose "Response".
+   ![findingdata](Images/Readme_images/README_scraper_guide_3.png)
+5. Then just ctrl+A, ctrl+C and paste the whole thing into a .json file.
+
+### Prerequisites
+
+Requirements for the software and other tools to build, test and push
+
+- [Example 1](https://www.example.com)
+- [Example 2](https://www.example.com)
+
+### Installing
+
+A step by step series of examples that tell you how to get a development
+environment running
+
+Say what the step will be
+
+    Give the example
+
+And repeat
+
+    until finished
+
+End with an example of getting some data out of the system or using it
+for a little demo
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Sample Tests
+
+Explain what these tests test and why
+
+    Give an example
+
+### Style test
+
+Checks if the best practices and the right coding style has been used.
+
+    Give an example
+
+## Deployment
+
+Add additional notes to deploy this on a live system
+
+## Built With
+
+- [Contributor Covenant](https://www.contributor-covenant.org/) - Used
+  for the Code of Conduct
+- [Creative Commons](https://creativecommons.org/) - Used to choose
+  the license
+
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
+of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
+available, see the [tags on this
+repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+
+## Authors
+
+- **Billie Thompson** - _Provided README Template_ -
+  [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of
+[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
+who participated in this project.
+
+## License
+
+This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
+Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
+details
+
+## Acknowledgments
+
+- Daniel Henri Trump (Daniloom)
+- Mari Lee Lumberg (lumbergmarilee)
+- Karl Martin Puna (GnuThe2nd)
